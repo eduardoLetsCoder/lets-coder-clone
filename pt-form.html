@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Let's Coder 1</title>
+    <link href="./estilos/reset.css" rel="stylesheet" />
+    <link href="./estilos/main.css" rel="stylesheet" />
+  </head>
+  <body>
+    <nav>
+      <img src="./images//letscoder-sin-fondo.png" alt="logo" />
+      <div>
+        <a href="./home.html">Home</a>
+        <a href="./conocenos.html">Conócenos</a>
+        <a href="./contacto.html">Contacto</a>
+        <a href="./info.html">Información</a>
+      </div>
+    </nav>
+    <div class="h2-container">
+      <h2>Inscripción al part-time</h2>
+    </div>
+    <div class="form-container">
+      <form action="/action_page.php" method="get">
+        <div class="form-part-container">
+          <div class="label-container">
+            <label for="fname">Nombre:</label>
+          </div>
+          <input type="text" id="nombre" name="nombre" required/>
+        </div>
+        <div class="form-part-container">
+          <div class="label-container">
+            <label for="primer-apellido">Primer apellido:</label>
+          </div>
+          <input type="text" id="primer-apellido" name="primer-apellido" required/>
+        </div>
+        <div class="form-part-container">
+          <div class="label-container">
+            <label for="segundo-apellido">Segundo Apellido:</label>
+          </div>
+          <input type="text" id="segundo-apellido" name="segundo-apellido" required/>
+        </div>
+        <div class="form-part-container">
+          <div class="label-container">
+            <label for="edad">Edad:</label>
+          </div>
+          <input type="number" id="edad" name="edad" required/>
+        </div>
+        <div class="column-form-part-container">
+          <p class="radio-title">Género:</p>
+          <div class="radio-element">
+            <input type="radio" id="male" name="gender" value="male" />
+            <label for="male">Hombre</label>
+          </div>
+          <div class="radio-element">
+            <input type="radio" id="female" name="gender" value="female" />
+            <label for="female">Mujer</label>
+          </div>
+          <div class="radio-element">
+            <input type="radio" id="other" name="gender" value="other" />
+            <label for="other">Otro</label>
+          </div>
+        </div>
+        <div class="column-form-part-container">
+          <p class="radio-title">Bootcamp:</p>
+          <div class="radio-element">
+            <input type="radio" id="ciudad" name="ciudad" value="madrid" />
+            <label for="madrid">Madrid</label>
+          </div>
+          <div class="radio-element">
+            <input type="radio" id="barcelona" name="ciudad" value="barcelona" />
+            <label for="barcelona">Barcelona</label>
+          </div>
+        </div>
+        <div class="column-form-part-container">
+          <p class="radio-title">Tecnologías que ya conoces:</p>
+          <div class="radio-element">
+            <input type="checkbox" id="tecnologia" name="tecnologia" value="html" />
+            <label for="html">HTML5</label>
+          </div>
+          <div class="radio-element">
+            <input type="checkbox" id="css" name="tecnologia" value="css" />
+            <label for="css">CSS3</label>
+          </div>
+          <div class="radio-element">
+            <input type="checkbox" id="javascript" name="tecnologia" value="javascript" />
+            <label for="javascript">Javascript</label>
+          </div>
+          <div class="radio-element">
+            <input type="checkbox" id="nodejs" name="tecnologia" value="nodejs" />
+            <label for="nodejs">NodeJs</label>
+          </div>
+          <div class="radio-element">
+            <input type="checkbox" id="react" name="tecnologia" value="react" />
+            <label for="react">React</label>
+          </div>
+        </div>
+        <div class="form-input-container">
+          <input type="submit" value="Enviar" />
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
